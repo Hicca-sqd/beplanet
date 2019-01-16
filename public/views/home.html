@@ -1,0 +1,442 @@
+  <section class="modal" id="modal">
+    <form action="send.php" class="modal-form" method="post">
+      <img class="modal-close" onclick="toggleModal()" src="images/multiply.svg">
+      <div class="modal-form__head">
+        Оставьте заявку, наш менеджер свяжется с Вами
+      </div>
+      <div class="form-content">
+        <!-- Start of U-ON widget script -->
+<div name='uon_widget_3188-18735-MJTIVPlBRb' id='uon_widget_3188-18735-MJTIVPlBRb' class='uon-widget'></div>
+<script>!function(e,o){window.uon=o;o.g_config={widget_id:'3188-18735-MJTIVPlBRb',widget_w:'400px',widget_h:'400px',client_id:18735}; o.config=function(e){ this.g_config.user=e}}(document,window.uon||{});</script>
+<script type='text/javascript' src='https://uon.u-on.ru/widgets/widget_ssl.js'></script>
+<!-- End of U-ON widget script -->
+      </div>
+    </form>
+    <div class="modal-backdrop" ng-click="be.toggleModal()"></div>
+  </section>
+
+      <div class="main">
+        <div class="main-inner">
+          <div class="main_item--big">
+            <img src="images/malaziya.jpg" alt="">
+            <span class="txt txt-title--big">Турция, <br> раннее бронирование.</span>
+            <span class="txt txt-sub--big">Горящий тур от $700 с 20.05 от 7 ночей </span>
+            <button class="butn butn--main--big" ng-click="be.toggleModal()">Подробнее</button>
+          </div>
+          <div class="main-little--inner">
+            <div class="little--inner__item--first">
+              <img src="images/goa.jpg" alt="">
+           <span class="txt txt-title--little">Индия, Гоа</span>
+            <span class="txt txt-sub--little">от $560 с 20.01 от 7 ночей</span>
+            <button class="butn butn--main" ng-click="be.toggleModal()">Подробнее</button>
+            </div>
+            <div class="little--inner__item-second">
+              <img src="images/bg.jpg" alt="">
+
+            <span class="txt txt-title--littleS">Lorem ipsum.</span>
+            <span class="txt txt-sub--littleS">Lorem ipsum dolor sit amet.</span>
+            <button class="butn butn--main" ng-click="be.toggleModal()">Подробнее</button>
+            </div>
+          </div>
+        </div>
+           </div>
+
+           <section class="tours" id="main">
+             <div class="section-title">
+               <span class="title tl--title">Горящие туры</span>
+               <span class="title tl--desc__tr">Отправляйтесь отдыхать здесь и сейчас.</span>
+             </div>
+  <section class="modal" id="modal--tours">
+    <form class="modal-form" method="post">
+      <img class="modal-close" ng-click="be.toggleTour()" src="images/multiply.svg">
+      <div class="modal-form__head">
+      Оставьте заявку, наш менеджер свяжется с Вами
+      </div>
+      <div class="form-content">
+        <input class="form-content__input" ng-model="be.pername" placeholder="Ваше Имя" type="text"> 
+        <input class="form-content__input" ng-model="be.phone" placeholder="Ваш Телефон" type="number">
+        <button class="butns btn--modal" ng-click="be.tour()" type="submit">Send</button>
+      </div>
+    </form>
+    <div class="modal-backdrop" ng-click="be.toggleTour()"></div>
+  </section>
+             <div class="tourses-inner">
+               <div class="tourses-inner__item" ng-repeat="tour in be.tours">
+                 <img ng-src="{{tour.link}}" alt="">
+                 <span class="txt txt-title--tours" ng-bind="tour.name"></span>
+                <span class="txt txt-sub--tours" ng-bind="tour.price"></span>
+                <button class="butns butn--tours" ng-click="be.toggleTour()">Мне  интересно</button>
+               </div>
+             </div>
+           </section>
+           <section class="subscribtion">
+             <div class="sub-inner">
+               <div class="sub-logo--inner">
+                 <img src="images/notification.svg" alt="">
+               </div>
+               <span class="txt txt--sub_txt">
+                 Подпишитесь на рассылку и будьте в курсе всех <br> самых выгоднях цен и интересных новостей
+               </span>
+                 <input class="input--sub" type="email" placeholder="Введите email">
+                <button class="butns butn--sub">Подписаться</button>
+             </div>
+                <button class="butns butn--alltrs" ng-click="be.toggleTour()">Все туры</button>
+           </section>
+
+           <section class="comfort" id="comfort">
+             <div class="section-title comf-sec">
+               <span class="title tl--title">Летайте с комфортом</span>
+               <span class="title tl--desc__comfort">Бронирование билетов за 2 минуты.</span>
+             </div>
+              <div class="comfort-inner">
+            <div class="comfort-inner__item">
+              <input class="input--comf" ng-model="be.depart" type="text" placeholder="Город отправления?">
+            </div>
+             <div class="comfort-inner__item">
+              <input class="input--comf" ng-model="be.come" type="text" placeholder="Город прибытия?">
+            </div>
+             <div class="comfort-inner__item">
+              <input class="input--comf" ng-model="be.date" type="text" placeholder="Дата вылета">
+            </div>
+             <div class="comfort-inner__item">
+              <input class="input--comf" ng-model="be.wise" type="text" placeholder="Туда/обратно">
+            </div>
+             <div class="comfort-inner__item">
+              <input class="input--comf" ng-model="be.phone" type="number" string-to-number placeholder="Номер телефона">
+            </div>
+            <div class="comfort-inner__item">
+             <button class="butns butn--comf" ng-click="be.bot()">Заказать</button>
+            </div>
+           </div>
+         
+           </section>
+
+           <section class="points">
+               <div class="points-inner">
+               <div class="points-inner__item">
+                 <span class="txt txt-title--points">Алматы - Москва</span>
+                 <img src="images/plane.svg" alt="">
+                <span class="txt txt-sub--points">Средняя цена.</span>
+                <span class="txt txt-price--points">93 000 KZT</span>
+               </div>
+               <div class="points-inner__item">
+                 <span class="txt txt-title--points">Алматы - Дубай</span>
+                 <img src="images/plane.svg" alt="">
+                <span class="txt txt-sub--points">Средняя цена.</span>
+                <span class="txt txt-price--points">110 000 KZT</span>
+               </div>
+               <div class="points-inner__item">
+                 <span class="txt txt-title--points">Алматы - Берлин</span>
+                 <img src="images/plane.svg" alt="">
+                <span class="txt txt-sub--points">Средняя цена.</span>
+                <span class="txt txt-price--points">93 000 KZT</span>
+               </div>
+               <div class="points-inner__item">
+                 <span class="txt txt-title--points">Алматы - Билиси</span>
+                 <img src="images/plane.svg" alt="">
+                <span class="txt txt-sub--points">Средняя цена.</span>
+                <span class="txt txt-price--points">100 000 KZT</span>
+               </div>
+               <div class="points-inner__item">
+                 <span class="txt txt-title--points">Алматы - Ант</span>
+                 <img src="images/plane.svg" alt="">
+                <span class="txt txt-sub--points">Средняя цена.</span>
+                <span class="txt txt-price--points">100 000 KZT</span>
+               </div>
+               
+             </div>
+           </section>
+           
+           <section class="opening" id="visa">
+               <div class="section-title opnening-sec">
+               <span class="title tl--title">Открывай мир с Beplanet</span>
+               <span class="title tl--desc__opening">Оформление виз в короткие сроки.</span>
+             </div>
+               <div class="opening-inner">
+               <div class="opening-inner__item">
+                 <img src="images/india.jpg" alt="">
+                 <span class="txt txt-title--opening">Индиа, Гоа</span>
+                <span class="txt txt-sub--opening">Визы от:</span>
+                <span class="txt txt-price--opening">6 500 KZT</span>
+               </div>  
+                <div class="opening-inner__item">
+                 <img src="images/germani.jpg" alt="">
+                 <span class="txt txt-title--opening">Германия</span>
+                <span class="txt txt-sub--opening">Визы от:</span>
+                <span class="txt txt-price--opening">7 500 KZT</span>
+               </div> 
+                <div class="opening-inner__item">
+                 <img src="images/chesch.jpg" alt="">
+                 <span class="txt txt-title--opening">Чехия</span>
+                <span class="txt txt-sub--opening">Визы от:</span>
+                <span class="txt txt-price--opening">7 500 KZT</span>
+               </div> 
+                <div class="opening-inner__item">
+                 <img src="images/usa.jpg" alt="">
+                 <span class="txt txt-title--opening">США</span>
+                <span class="txt txt-sub--opening">Визы от:</span>
+                <span class="txt txt-price--opening">14 500 KZT</span>
+               </div> 
+                <div class="opening-inner__item">
+                 <img src="images/izrail.jpg" alt="">
+                 <span class="txt txt-title--opening">Израиль</span>
+                <span class="txt txt-sub--opening">Визы от:</span>
+                <span class="txt txt-price--opening">7 500 KZT</span>
+               </div> 
+                <div class="opening-inner__item">
+                 <img src="images/cambo.jpg" alt="">
+                 <span class="txt txt-title--opening">Камбоджо</span>
+                <span class="txt txt-sub--opening">Визы от:</span>
+                <span class="txt txt-price--opening">10 000 KZT</span>
+               </div> 
+             </div>
+             <div class="visa-inner">
+                <section class="modal" id="modal--visa">
+    <form class="modal-form">
+      <img class="modal-close" ng-click="be.toggleVisa()" src="images/multiply.svg">
+      <div class="modal-form__head">
+      Оставьте заявку, наш менеджер свяжется с Вами
+      </div>
+      <div class="form-content">
+         <input class="input visa--form__input-name" ng-model="be.country" placeholder="Уточните страну" type="text">
+        <input class="form-content__input" ng-model="be.visaname" placeholder="Ваше Имя" type="text"> 
+        <input class="form-content__input" ng-model="be.phone" placeholder="Ваш Телефон" type="number">
+        <button class="butns btn--modal" ng-click="be.visa()" type="submit">Send</button>
+      </div>
+    </form>
+    <div class="modal-backdrop" ng-click="be.toggleVisa()"></div>
+  </section>
+                <div class="visa--cont">
+                  <span class="visa--form__title">Быстрое оформление визы</span>
+                <div class="visa--form" action="">
+                  <select class="visa--form__sel" name="" id="">
+                    <option>Выберете страну</option>
+                    <option>Индия</option>
+                    <option>Германия</option>
+                    <option>Чехия</option>
+                    <option>США</option>
+                    <option>Израиль</option>
+                    <option>Камбоджо</option>
+                  </select>
+                  <input class="input visa--form__input-name" placeholder="Ваше имя" type="text">
+                  <input class="input visa--form__input-phone" placeholder="Ваш телефон" type="number">
+                  <button class="butns butn--visa" type="submit" ng-click="be.toggleVisa()">Оформить</button>
+                </div>
+                <div class="visa--cont__txts">
+                  <span class="txt txt-title--visa">Зачем мне оформлять визовую поддержку?</span>
+                  <span class="txt txt-answerF--visa">Шенгенская виза для Казахстанцев
+                Если вы задавались вопросом, как получить визу в Европу из Казахстана, и не могли найти ответ, то ваши поиски завершены. мы поможем Вам оформить Шенгенскую визу в Европу</span>
+                  <!-- <span class="txt txt-answerFs--visa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id necessitatibus eius aperiam consequuntur nisi dolore sunt aliquid perspiciatis tenetur ad laborum illum dolorem voluptate dolores harum, adipisci cumque, magnam animi eum distinctio? Quis in amet id sit molestias non expedita.</span> -->
+                  <span class="txt txt-title--visa">В какие страны можно оформить визу?</span>
+                  <span class="txt txt-answerFs--visa">Шенгенская виза дает право въезда в 25 стран Европы, таких как: Австрия, Бельгия, Венгрия, Германия, Люксембург, Греция, Нидерланды, Дания, Исландия, Испания, Латвия, Литва, Италия, Мальта, Норвегия, Португалия, Польша, Словения, Словакия, Финляндия, Чехия, Франция, Швейцария, Швеция. Данная виза дает право перемещаться между странами без особых проблем, то есть можно считать, что границ между странами шенгенского соглашения нет.
+                  Однако, мы можем помочь вам оформить визу не только в Европу, но и в другие страны мира.</span>
+                </div>
+                </div>
+             </div>
+           </section>
+           <section class="feedbacks" id="feeds">
+               <div class="section-title feed-sec">
+               <span class="title tl--title">Отзывы о Beplanet</span>
+               <span class="title tl--desc__feeds">Отзывы о нашей работе.</span>
+             </div>
+             <div class="feedbacks-inner">
+               <div class="feedbacks-inner--item">
+                 <div class="feedbacks-inner--item__info">
+                   <div class="feedbacks-inner--item__phHolder">
+                     <img src="images/aisulu.jpg" alt="">
+                   </div>
+                      <span class="txt txt-name--feed">Айсулу Абугали</span>
+                      <span class="txt txt-date--feed">25.06.2018</span>   
+                 </div>
+                 <div class="feedbacks-inner--item__body">
+                   <span class="txt txt-place--feed">Гоа</span>
+                   <span class="txt txt-adv--feed">Достоинства:</span>
+                   <span class="txt txt-advCom--feed">Отличная, круглосуточная поддержка и онлайн фидбек от сотрудников. мы без стеснений обращались с интересующими нас вопросами. Еще один приятный момент это бесплатный трансфер до аэропорта и с аэропорта, в других турфирмах такого не встречала. </span>
+                  <span class="txt txt-dis--feed">Недостатки:</span>     
+                  <span class="txt txt-disCom--feed">Какие недостатки?</span>
+                  <span class="txt txt-com--feed">Коментарий:</span>     
+                  <span class="txt txt-comC--feed">Все профессионально, качественно и самое главное цены не кусаются + приятные бонусы от компании в будущем путешествуем только с вами!!</span>
+                 </div>
+               </div>
+                      <div class="feedbacks-inner--item">
+                 <div class="feedbacks-inner--item__info">
+                   <div class="feedbacks-inner--item__phHolder">
+                     <img src="images/bella.jpeg" alt="">
+                   </div>
+                      <span class="txt txt-name--feed">БЕЛЛА </span>
+                      <span class="txt txt-date--feed">20.08.2018</span>   
+                 </div>
+                 <div class="feedbacks-inner--item__body">
+                   <span class="txt txt-place--feed">Турция</span>
+                   <span class="txt txt-adv--feed">Достоинства:</span>
+                   <span class="txt txt-advCom--feed">Встретили нас в аэропорту на микроавтобусе класса люкс, привезли в отель. Отдыхали в LancoraBeachHotel в Кемере. Не плохая четверка. Ездили на отдых, не для развлечений, а чтобы посмотреть красоты Турции. 10 дней постоянных гуляний, экскурсий и тусовок! </span>
+                  <span class="txt txt-dis--feed">Недостатки:</span>     
+                  <span class="txt txt-disCom--feed">А они есть?</span>
+                  <span class="txt txt-com--feed">Коментарий:</span>     
+                  <span class="txt txt-comC--feed">Все очень понравилось.Особенно то, что есть бесплатное такси до аэропорта, и то что встретили, и проводили до дома. Вот это сервис! Спасибо ребята, за сервис и всевозможное содействие! В следующем году полетим с вами еще! </span>
+                 </div>
+               </div>
+               <div class="feedbacks__btns">
+                 <button class="butns butn--feedbacks__all">Все отзывы</button>
+                 <button class="butns butn--feedbacks__add">Оставить отзыв</button>
+               </div>
+             </div>
+           </section>
+           <section class="blog" id="blog">
+              <div class="section-title blog-sec">
+               <span class="title tl--title__blog">Блог</span>
+               <span class="title tl--desc__blog">Забавные факты и многое другое.</span>
+             </div>
+             <div class="blog--inner">
+               <div class="blog--inner__item">
+                 <img class="blog-bgImg" src="images/gr.jpg" alt="">
+                 <span class="txt txt-blog--name">Новый год заграницей</span>
+                 <img class="blog-calImg" src="images/calendar.svg" alt="">
+                 <span class="txt txt-blog--date">07.01.2018</span>
+                 <img class="blog-viewImg" src="images/view.svg" alt="">
+                 <span class="txt txt-blog--collView">300</span>
+                 <img class="blog-comImg" src="images/comments.svg" alt="">
+                 <span class="txt txt-blog--collComms">300</span>
+                 <button class="butns butn--blog">Читать</button>
+               </div>
+                  <div class="blog--inner__item">
+                 <img class="blog-bgImg" src="images/secbl.jpg" alt="">
+                 <span class="txt txt-blog--name">Новый год заграницей</span>
+                 <img class="blog-calImg" src="images/calendar.svg" alt="">
+                 <span class="txt txt-blog--date">07.01.2018</span>
+                 <img class="blog-viewImg" src="images/view.svg" alt="">
+                 <span class="txt txt-blog--collView">300</span>
+                 <img class="blog-comImg" src="images/comments.svg" alt="">
+                 <span class="txt txt-blog--collComms">300</span>
+                 <button class="butns butn--blog">Читать</button>
+               </div>
+                  <div class="blog--inner__item">
+                 <img class="blog-bgImg" src="images/thrdbl.jpg" alt="">
+                 <span class="txt txt-blog--name">Новый год заграницей</span>
+                 <img class="blog-calImg" src="images/calendar.svg" alt="">
+                 <span class="txt txt-blog--date">07.01.2018</span>
+                 <img class="blog-viewImg" src="images/view.svg" alt="">
+                 <span class="txt txt-blog--collView">300</span>
+                 <img class="blog-comImg" src="images/comments.svg" alt="">
+                 <span class="txt txt-blog--collComms">300</span>
+                 <button class="butns butn--blog">Читать</button>
+               </div>
+             </div>
+                 <div class="blog__btns">
+                 <button class="butns butn--feedbacks__all" >Все статьи</button>
+               </div>
+           </section>
+           <section class="about" id="contacts">
+               <div class="section-title blog-sec">
+               <span class="title tl--title">О Beplanet</span>
+               <span class="title tl--desc__about">Давайте познакомимся ближе.</span>
+             </div>
+             <div class="about--inner">
+                 <div class="about--inner__txts">
+                   <span class="txt txt-about--main">Каждый человек, в том числе и мы с вами, нуждается в отдыхе. Лучше всего на морском побережье – и для здоровья полезно, и для души. Дабы не омрачать отпуск бумажными хлопотами прям перед самой поездкой, стоит подумать о визе заранее. 
+                  Так что же такое виза?!На данный момент понятие «виза» обозначает штамп либо печать в заграничном паспорте: без такой отметки вас не пропустят за рубеж, каким бы способом вы ни добирались до отеля или дома родных и друзей в другом государстве.</span>
+                   <span class="txt txt-about--contacts">Контакты</span>
+                   <span class="txt txt-about--conts"><br>Телефон: +7 700 777 77 77 <br>
+                     inst: @beplanet <br>
+                     inst: @tour.beplanet <br>
+                     Адрес: Ньютона, 1А оф. 101
+                   </span>
+                   <span class="txt txt-about--order">Заказать звонок</span>
+                   <div class="about-form" action="">
+                     <input class="about-input--name" ng-model="be.about_name" placeholder="Ваше имя" type="text">
+                     <input class="about-input--phone" ng-model="be.about_phone" placeholder="Ваш телефон" type="number">
+                     <button class="butns butn--about" ng-click="be.about()">Заказать</button>
+                   </div>
+               </div>
+               <div class="about--people" >
+                 <div class="about--people__inner">
+                   <div class="about--people__inner--item">
+                     <div class="about--inner__imgHold">
+                       <img class="about--inner__img" src="images/ililas.jpg" alt="">
+                     </div>
+                     <span class="txt txt-about--name ">Ильяс Мнирович</span>
+                     <span class="txt txt-about--prof prof--ilias">Исполнительный Директор</span>
+                     <div class="about--socials">
+                  <a href="https://www.instagram.com/ilyas_mnirovich/" target="_blank">
+                         <img class="about--img" src="images/instagram.svg"   alt="">
+                       </a>
+                     </div>
+                   </div>
+                    <div class="about--people__inner--item">
+                     <div class="about--inner__imgHold">
+                       <img class="about--inner__img" src="images/fara.jpg" alt="">
+                     </div>
+                     <span class="txt txt-about--name">Фархат Азнабакиев</span>
+                     <span class="txt txt-about--prof prof--fara">Директор</span>
+                     <div class="about--socials">
+                       <a href="https://www.instagram.com/farkhat_aznabakiyev/"target="_blank">
+                         <img class="about--img" src="images/instagram.svg"   alt="">
+                       </a>
+                       
+                     </div>
+                   </div>
+                      <div class="about--people__inner--item">
+                     <div class="about--inner__imgHold">
+                       <img class="about--inner__img" src="images/irinanew.png" alt="">
+                     </div>
+                     <span class="txt txt-about--name ">Ирина Чупрынина</span>
+                     <span class="txt txt-about--prof prof--ira">Руководитель отдела продаж</span>
+                     <div class="about--socials">
+                       <a href="https://www.instagram.com/rina.evelina/" target="_blank">
+                         <img class="about--img" src="images/instagram.svg"   alt="">
+                       </a>
+                     </div>
+                   </div>
+                      <div class="about--people__inner--item">
+                     <div class="about--inner__imgHold">
+                       <img class="about--inner__img" src="images/daniil.jpg" alt="">
+                     </div>
+                     <span class="txt txt-about--name ">Даниил Николаевич</span>
+                     <span class="txt txt-about--prof prof--daniil">Технический отдел</span>
+                     <div class="about--socials">
+                       <a href="https://www.instagram.com/daniil.roz/"target="_blank">
+                         <img class="about--img" src="images/instagram.svg"   alt="">
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </section>
+           <footer class="footer">
+             <div class="footer-inner">
+               <div class="footer-inner__mainInf">
+                 <div class="footer--img">
+                   <img src="images/footer.png" alt="">
+                   <span class="txt txt-footer--info">
+                    <br> TOO "Beplanet" - туристическая фирма<br>
+                      БИН12345678900 <br>
+                      2015-2019
+                   </span>
+                 </div>
+               </div>
+               <div class="footer--links">
+                   <div class="footer--links__left">
+                     <span class="txt txt--footer__nav">Горящие туры</span>
+                     <span class="txt txt--footer__nav">Взовая поддержка</span>
+                     <span class="txt txt--footer__nav">Отзывы</span>
+                     <span class="txt txt--footer__nav">Блог</span>
+                     <span class="txt txt--footer__nav">О нас</span>
+                     <span class="txt txt--footer__nav">Контакты</span>
+                     <span class="txt txt--footer__nav">+7 (727) 973–99–33</span>
+                   </div>
+                       <div class="footer--links__right">
+                     <span class="txt txt--footer__point">Популярные направления</span>
+                     <span class="txt txt--footer__point">Взовая поддержка</span>
+                     <span class="txt txt--footer__point">Отзывы</span>
+                     <span class="txt txt--footer__point">Блог</span>
+                     <span class="txt txt--footer__point">О нас</span>
+                     <span class="txt txt--footer__point">Контакты</span>
+                     <span class="txt txt--footer__point">+7 (727) 973–99–33</span>
+                   </div>
+                 </div>
+                 <div class="map footer--map">
+                   <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1e1bcb69281c50f3b1f14f6ac0e8b5cbc0eb879a342e6f77ec21a5e0d95d363a&amp;width=600&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
+                 </div>
+             </div>
+           </footer>

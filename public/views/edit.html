@@ -1,0 +1,47 @@
+<!-- <table class="post_table">
+		<thead>
+			<tr class="home-tr">
+				<td>Title</td>
+				<td>Content</td>
+				<td>Author</td>
+				<td>Date</td>
+				<td class="home-tr__act">Action</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="post in hc.posts">
+				<td ng-bind="post.title"></td>
+				<td class="home-tr__cont" ng-bind="post.content"></td>
+				<td ng-bind="post.author"></td>
+				<td ng-bind="post.date | date"></td>
+				<td>
+				<button ng-click='hc.makeEditable(post)'>Edit</button>
+		     	<button ng-click='hc.deletePost(post)'>Delete</button> 
+				<button ui-sref="post({id:post._id})">More</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<section class="modal" ng-if="hc.objectToEdit != null">
+		<div class="modal__backdrop" ng-click="hc.closeModal();"></div>
+		<div class="modal__window">
+			<div class="modal__title">
+				Edit Post
+			</div>
+			<div class="modal__field">
+				<input class="inp modal--inp" name="input input_modal" ng-model="hc.objectToEdit.title" type="test">
+			</div>
+			<div class="modal__field">
+				<input class="inp modal--inp" name="input input_modal" ng-model="hc.objectToEdit.content" type=
+				"test">
+			</div>
+			<div class="modal__field">
+				<input class="inp modal--inp" name="input input_modal" ng-model="hc.objectToEdit.author" type=
+				"test">
+			</div>
+			<div class="modal__field">
+				<button class="buttons btn_modal" ng-click="hc.editPost()">Submit</button>
+			</div>
+		</div>
+	</section> -->

@@ -1,0 +1,11 @@
+<form class="form_add" ng-submit="be.saveFead()">
+	<div class="add-block">
+		<input accept="image/*"  class="add-inp-file" ng-file-model="be.file" required="" type="file">
+		<input class="add-inp" ng-model="be.name" placeholder="Имя" required="" type="text"> 
+		<input class="add-inp" ng-model="be.country" placeholder="Страна" required="" type="text"> 
+	<textarea class="add-cont" ng-model="be.pros" placeholder="Достоинства" required="" maxlength="150" type="text"> </textarea>
+	<textarea class="add-cont" ng-model="be.cons" placeholder="Недостатки" required="" maxlength="150" type="text"> </textarea>
+	<textarea class="add-cont" ng-model="be.comm" placeholder="Комментарий" required="" maxlength="150" type="text"> </textarea>
+		 <button class="buttons add--btn" type="submit">Save</button>
+		 </div>
+	</form>

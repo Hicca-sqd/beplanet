@@ -1,0 +1,98 @@
+.about{
+	position: relative;
+	height:700px;
+ 	width: 80%;
+	margin: 5em auto;
+}
+
+.about--inner{
+	top: 5em;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+}
+
+.about--inner__txts{
+	position: relative;
+	width:38%;
+	left: 0;
+	height: 100%;
+}
+
+.txt-about--conts{
+	position: relative;
+	top: 100px;
+	line-height: 1.5;
+	flex-wrap: nowrap;
+}
+
+
+.about-form{
+	position: absolute;
+	bottom: 1em;
+}
+
+.about-input--name,
+.about-input--phone{
+	 border: 2px solid #29b6f6;
+	height: 40px;
+	width: 250px;
+	text-align: center;
+}
+
+.about--people{
+	  position: relative;
+    display: flex;
+    width: 60%;
+    height: 100%;
+}
+
+.about--people__inner{
+	  position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+    max-width: 950px;
+     flex-wrap: wrap;
+}
+
+.about--people__inner--item{
+	position: relative;
+	width: 290px;
+	height: 380px;
+	transition: .5s ease-out;
+	margin-right: 5px;
+	margin-bottom: 20px;
+}
+
+.about--inner__imgHold{
+	width: 100%;
+	height: 270px;
+}
+
+.about--inner__img{
+	width:100%;
+	height: 100%;
+
+}
+
+.about--socials{
+	 position: absolute;
+    bottom: 0em;
+    left: 8.5em;
+    justify-content: space-between;
+	width: 100px;
+	display: flex;
+    height: 45px;
+   
+}
+
+.about--img{
+	width:30px;
+	height: 50px;
+	cursor: pointer;
+}

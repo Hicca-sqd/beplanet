@@ -1,0 +1,11 @@
+.section-head__heading {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Gotham Pro-Bold;
+	font-size: 50px;
+	color: #d1cabd;
+	text-shadow: 0px 5px 13px rgba(255, 162, 0, 0.5);
+	margin-top: 40px;
+	margin-bottom: 40px;
+}

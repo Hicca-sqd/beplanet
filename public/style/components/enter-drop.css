@@ -1,0 +1,70 @@
+	.enter-block {
+		position: absolute;
+		top: 80px;
+		right: 35px;
+		height: 350px;
+		width: 250px;
+		box-sizing: border-box;
+		border: 1px solid #ffa200;
+		border-radius: 3px;
+		display: flex;
+		background-color: #4b1b0d;
+		box-shadow: -1px 0px 10px 0px rgba(255, 162, 0, 1);
+		display: none;
+		animation: EnterOpp .5s ease-in-out;
+	}
+
+	.enter-drop {
+		position: relative;
+		width: 100%;
+	}
+
+	.enter__inp {
+		display: block;
+		border-radius: 10px;
+		height: 35px;
+		width: 180px;
+		margin-top: 40px;
+		margin-left: 30px;
+		margin-right: 20px;
+		border: 2px solid #ffa200;
+		background-color: #55341f;
+		font-family: Gotham Pro;
+		text-align: center;
+		color: #eaeaea;
+		outline: none;
+	}
+/*
+	.enter__text--qw {
+		display: block;
+		overflow: hidden;
+		white-space: nowrap;
+		margin-top: 40px;
+		margin-left: 35px;
+		margin-right: 20px;
+		font-size: 12px;
+		color: rgba(255, 255, 255, .7);
+		font-family: Gotham Pro-Bold;
+	}
+
+	.enter__text--reg {
+		display: block;
+		margin-top: 10px;
+		margin-left: 30px;
+		margin-right: 35px;
+		font-family: Gotham Pro-Bold;
+		color: #ffa200;
+		text-decoration: underline;
+		cursor: pointer;
+	}*/
+
+
+	@keyframes EnterOpp {
+		0% {
+			opacity: 0;
+		}
+		,
+		100% {
+			opacity: 1;
+		}
+	}

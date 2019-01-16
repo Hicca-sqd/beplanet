@@ -1,0 +1,35 @@
+<!-- <div class="posts-list" ng-repeat="post in be.posts">
+	<img ng-src="{{post.link}}">
+	<div class="posts-block">
+	<span class="book-title" ng-bind="post.title"></span>
+	<span class="book-content" ng-bind="post.content"></span>
+	<span class="book-date" ng-bind="post.date | date"></span>
+	<button class="buttons colls-btn" ui-sref="post({id:post._id})">Подробнее</button>
+	</div>
+</div> -->
+       <section class="alltours">
+             <div class="section-title">
+               <span class="title tl--title">Горящие туры</span>
+               <span class="title tl--desc">Lorem ipsum dolor sit amet.</span>
+             </div>
+             <div class="tourses-inner">
+               <div class="tourses-inner__item" ng-repeat="post in be.posts">
+                 <img ng-src="{{post.link}}">
+                 <span class="txt txt-title--tours" ng-bind="post.name"></span>
+                <span class="txt txt-sub--tours" ng-bind="post.price"></span>
+                <button class="butns butn--tours">Мне  интересно</button>
+               </div>
+             </div>
+           </section>
+		<!-- 	<section class="pagination">
+		<div class="pagin-prev" ng-click = "be.prevPage()">
+			<
+		</div>	
+		<button ng-click = "be.setPage()" class="pagination-item" ng-repeat="page in be.pages track by $index" ng-bind="page + 1" ng-class="{'active': be.current_page == page + 1}"></button>
+		<div class="pagin-next" ng-click="be.nextPage()">
+			>
+		</div>
+	</section>
+
+
+	  -->

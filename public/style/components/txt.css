@@ -1,0 +1,455 @@
+.txt{
+	font-size: 15px;
+	color:#000;
+}
+
+
+.txt-title--big{
+	display:inline-block;
+    position:absolute;
+    font-size: 25px;
+    font-family: Ubuntu;
+    top:8em;   
+    left:6em;
+    color:#fff;
+}
+
+.txt-title--little{
+    display:inline-block;
+    position:absolute;
+    font-size: 25px;
+    font-family: Ubuntu;
+    bottom:7em;   
+    left:3em;
+    color:#fff;
+}
+
+.txt-title--littleS{
+       display:inline-block;
+    position:absolute;
+    font-size: 25px;
+    font-family: Ubuntu;
+    bottom:7em;   
+    left:3em;
+    color:#fff;
+}
+
+.txt-sub--big{
+	display:inline-block;
+    position:absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    top:14.5em;   
+    left:8em;
+    color:#fff;
+}
+
+.txt-sub--little{
+    display:inline-block;
+    position:absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    bottom:6.5em;   
+    left:3em;
+    color:#fff;
+}
+
+.txt-sub--littleS{
+      display:inline-block;
+    position:absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    bottom:6.5em;   
+    left:3em;
+    color:#fff; 
+}
+
+.txt-title--tours{
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #fff;
+}
+
+.txt-sub--tours{
+    display:inline-block;
+    position:absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    bottom:8.5em;   
+    left:8.5em;
+    color:#fff;
+}
+
+.txt--sub_txt{
+     display: inline-block;
+    position: relative;
+    font-size: 16px;
+    white-space: nowrap;
+    line-height: 1.5;
+    top: 15px;
+    left: 40px;
+    font-family: Gotham Pro;
+    color: #000;
+    font-weight: 600;
+}
+
+.txt-title--points{
+     display: inline-block;
+     top: 5px;
+    position: absolute;
+    font-size: 18px;
+    font-family: Gotham Pro;
+    left: 3em;
+    color: #000;
+}
+
+.txt-sub--points{
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: Gotham Pro;
+    bottom: 4em;
+    left: 4em;
+    color: #000;
+    color: rgba(0,0,0, .45);
+}
+
+.txt-price--points{
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: Gotham Pro;
+    bottom: 2em;
+    left: 5em;
+    color: #000;
+    
+}
+
+.txt-title--opening{
+     display: inline-block;
+     top: 5px;
+    position: absolute;
+    font-size: 18px;
+    font-family: Gotham Pro;
+    left: 4.2em;
+    color: #fff;
+}
+
+.txt-sub--opening{
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    font-family: Gotham Pro;
+    bottom: 4em;
+    left: 5em;
+    color: #fff;
+}
+
+.txt-price--opening{
+    display: inline-block;
+    position: absolute;
+    font-size: 17px;
+    font-family: Gotham Pro;
+    bottom: 2em;
+    left: 5em;
+    color: #fff;
+    
+}
+
+.visa--form__title{
+    display:inline-block;
+    position:absolute;
+    font-size: 23px;
+    font-family: Ubuntu;
+    left:3em;
+    top: 20px;
+    color:#000;
+    font-weight: 600;
+}
+
+
+.txt-title--visa{
+    display:inline-block;
+    position:relative;
+    font-size: 23px;
+    font-family: Ubuntu;
+    left:3em;
+    top: 20px;
+    color:#000;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.txt-answerF--visa{
+   display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-family: Gotham Pro;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #000; 
+}
+
+.txt-answerFs--visa{
+     display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-family: Gotham Pro;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.txt-name--feed{
+     display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    font-family: Gotham Pro;
+    top: 12em;
+    left: 1em;
+    color: #000;
+}
+
+.txt-date--feed{
+     display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    font-family: Gotham Pro;
+    bottom: 5em;
+    left: 2em;
+    color: #000;   
+}
+
+.txt-place--feed{
+     display: inline-block;
+    position: absolute;
+    font-size: 23px;
+    font-family: Ubuntu;
+    top: 10px;
+    left: 2em;
+    color: #66bb6a;
+}
+
+.txt-adv--feed{
+     display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    top: 4em;
+    left: 7em;
+    font-weight: 600;
+    color: #000;
+}
+
+.txt-advCom--feed{
+     display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    top:7em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.txt-dis--feed{
+     display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    top: 9.5em;
+    left: 7em;
+    font-weight: 600;
+    color: #000;
+}
+
+.txt-disCom--feed{
+     display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    top:7.5em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.txt-com--feed{
+      display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    font-family: Ubuntu;
+    bottom: 5.5em;
+    left: 7em;
+    font-weight: 600;
+    color: #000;
+}
+
+.txt-comC--feed{
+      display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    bottom:1em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.txt-blog--name{
+    display:inline-block;
+    position:absolute;
+    font-size: 25px;
+    font-family: Ubuntu;
+    bottom:9em;   
+    left:4em;
+    color:#fff;
+}
+
+
+.txt-blog--date{
+    display:inline-block;
+    position:absolute;
+    font-size: 18px;
+    font-family: Ubuntu;
+    bottom:11em;   
+    left:7em;
+    color:#fff;
+}
+
+.txt-blog--collComms{
+    display:inline-block;
+    position:absolute;
+    font-size: 18px;
+    font-family: Ubuntu;
+    bottom: 11em;
+    right: 5em;
+    color:#fff;
+}
+
+.txt-blog--collView{
+    display:inline-block;
+    position:absolute;
+    font-size: 18px;
+    font-family: Ubuntu;
+    bottom: 11em;
+    right: 10em;
+    color:#fff;
+}
+
+
+.txt-about--main{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: #000;
+}
+
+.txt-about--contacts{
+    display: inline-block;
+    top: 50px;
+    position: relative;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    color: #000;
+}
+
+.txt-about--name{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    color: #000;
+    left: 60px;
+}
+
+.txt-about--prof{
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    color: #000;
+}
+
+.txt-footer--info{
+   display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 300;
+    top: 5px;
+    right: 0em;
+    color: #fff;
+}
+
+
+.txt--footer__nav{
+    display: block;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Ubuntu;
+    font-weight: 300;
+    top: 1em;
+    left: 1em;
+    color: #fff;
+}
+
+.txt--footer__point{
+    display: block;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Ubuntu;
+    font-weight: 300;
+    top: 1em;
+    left: 1em;
+    color: #fff;
+}
+
+.prof--ilias{
+    top: 25px;
+    left: 3em;
+
+}
+
+.prof--fara{
+    top: 40px;
+    right: 5em;
+}
+
+.prof--ksusha{
+    top: 25px;
+    left: 4.8em;
+}
+
+.prof--ira{
+    top: 25px;
+    left: 3em;
+    font-size: 15px;
+}
+
+.prof--irina{
+    top: 25px;
+    left: 3em;
+}
+
+.prof--daniil{
+    top: 25px;
+    left: 5em;
+}

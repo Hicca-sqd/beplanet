@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="beplanet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="/">
+   <title>Beplanet</title>
+   
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+      <link rel="stylesheet" href="style/all.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    </head>
+    <body>
+      <nav class="nav">
+        <div class="nav-inner">
+          <div class="logo-inner">
+            <img src="images/head.png" alt="">
+          </div>
+          <div class="nav-list">
+           <li >
+            <a class="nav-list__item" ui-sref="home" onclick="Scroll('main', 0)">Горящие туры</a>
+          </li>
+           <li >
+            <a class="nav-list__item" ui-sref="home" onclick="Scroll('comfort', 1)">Авиабилеты</a>
+          </li>
+           <li>
+            <a class="nav-list__item" ui-sref="home" onclick="Scroll('visa', 2)">Визовая поддержка</a>
+          </li>
+           <li>
+            <a class="nav-list__item" ui-sref="home" onclick="Scroll('feeds', 3)">Отзывы</a>
+          </li>
+             <li >
+            <a class="nav-list__item" ui-sref="home" onclick="Scroll('blog', 4)">Блог</a>
+          </li>
+           <li>
+            <a class="nav-list__item" ui-sref="home" onclick="Scroll('contacts', 5)">Контакты</a>
+          </li>
+           <li class="nav-list__item num">+7 (727) 973–99–33</li>
+          </div>
+        </div>
+      </nav>
+    	<ui-view>
+	</ui-view>
+    <!-- SCRIPTS -->
+
+    <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script>
+  $(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.loader');
+    $loader.delay(100).fadeOut();
+    $preloader.delay(100).fadeOut('slow');
+  });
+</script>
+<script type="text/javascript" src="/js/vendor/ng.min.js"></script>
+<script type="text/javascript" src="/js/vendor/ng-route.min.js"></script>
+<script type="text/javascript" src="/js/vendor/ng-cookies.min.js"></script>
+<script type="text/javascript" src="/app.js"></script>
+<script type="text/javascript" src="/js/vendor/file.js"></script>
+<script type="text/javascript" src="/js/vendor/scroll.js"></script>
+
+<script type="text/javascript" src="/js/controllers/main.js"></script>
+<script type="text/javascript" src="/js/controllers/reg.js"></script>
+<script type="text/javascript" src="/js/controllers/auth.js"></script>
+<script type="text/javascript" src="/js/controllers/headerctrl.js"></script>
+<script type="text/javascript" src="/js/controllers/add.js"></script>
+<script type="text/javascript" src="/js/controllers/collections.js"></script>
+<script type="text/javascript" src="/js/controllers/adm.js"></script>
+<script type="text/javascript" src="/js/controllers/edit.js"></script>
+<script type="text/javascript" src="/js/controllers/post.js"></script>
+<script type="text/javascript" src="/js/controllers/addF.js"></script>
+
+</body>
+</html>

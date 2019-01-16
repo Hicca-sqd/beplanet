@@ -1,0 +1,19 @@
+.under_line {
+	border: 0;
+	height: 1px;
+	width: 80%;
+	background-image: -webkit-linear-gradient(left, #000, #d1cabd, #000);
+	background-image: -moz-linear-gradient(left, #000, #d1cabd, #000);
+	background-image: -ms-linear-gradient(left, #000, #d1cabd, #000);
+	background-image: -o-linear-gradient(left, #000, #d1cabd, #000);
+}
+
+.hr_callback {
+	border: 0;
+	height: 1px;
+	width: 80%;
+	background-image: -webkit-linear-gradient(left, #d1cabd, #fff, #d1cabd);
+	background-image: -moz-linear-gradient(left, #d1cabd, #fff, #d1cabd);
+	background-image: -ms-linear-gradient(left, #d1cabd, #fff, #d1cabd);
+	background-image: -o-linear-gradient(left, #d1cabd, #fff, #d1cabd);
+}

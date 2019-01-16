@@ -1,0 +1,55 @@
+.visa-inner{
+	position: relative;
+	height:550px;
+ 	width: 100%;
+	margin: 10em auto;
+}
+
+
+.visa--cont{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	justify-content: space-around;
+	
+}
+
+.visa--form{
+	position: absolute;
+	top: 80px;
+	left: 70px;
+	width:40%;
+}
+
+.visa--form__input-name{
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.visa--form__input-phone{
+	position: relative;
+	display: block;
+}
+
+.input{
+    border: 2px solid #29b6f6;
+	height: 40px;
+	width:100%;
+	text-align: center;
+}
+
+.visa--form__sel{
+    border: 2px solid #29b6f6;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 15px;
+
+}
+
+.visa--cont__txts{
+	position: relative;
+	float: right;
+	top: 0;
+	width:50%;
+}

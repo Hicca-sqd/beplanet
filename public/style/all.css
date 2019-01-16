@@ -1,0 +1,65 @@
+
+@import url('./vendor/reset.css');
+/*@import url('./vendor/materialize.css');*/
+/*@import url('./vendor/materialize.min.css');*/
+
+@import url('./components/new.css');
+@import url('./components/nav.css');
+@import url('./components/main.css');
+@import url('./components/txt.css');
+@import url('./components/btn.css');
+@import url('./components/section-titles.css');
+@import url('./components/tours.css');
+@import url('./components/sub.css');
+@import url('./components/comfort.css');
+@import url('./components/opening.css');
+@import url('./components/visa-form.css');
+@import url('./components/feedbacks.css');
+@import url('./components/blog.css');
+@import url('./components/about.css');
+@import url('./components/footer.css');
+@import url('./components/modal.css');
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Gotham Pro ';
+	src: url('GothamPro.eot');
+	src: local('Gotham Pro'), local('GothamPro'),
+		url('GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('vendor/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro-Bold';
+	src: url('GothamPro-Bold.eot');
+	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('vendor/GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro-Light';
+	src: url('GothamPro-Light.eot');
+	src: local('Gotham Pro Light'), local('GothamPro-Light'),
+		url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('vendor/GothamPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('vendor/Ubuntu-Regular.ttf') format('truetype');
+}
+
+	

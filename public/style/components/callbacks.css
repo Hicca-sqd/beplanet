@@ -1,0 +1,67 @@
+.callbacks {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 55px 5% 0;
+	height: 115vh;
+	/*вместо % для */
+	margin-bottom: 100px;
+}
+
+.callbacks-block {
+	margin: 0 auto;
+	max-width: 1500px;
+	/*	height:80vh*/
+	;
+	background-color: #e48800;
+	;
+	border-radius: 20px;
+	filter: brightness(105%);
+	-webkit-box-shadow: 0px 10px 30px 0px rgba(255, 162, 0, 0.5);
+	-moz-box-shadow: 0px 10px 30px 0px rgba(255, 162, 0, 0.5);
+	box-shadow: 0px 10px 30px 0px rgba(255, 162, 0, 0.5);
+}
+
+.callbacks-inner {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 1440px;
+	justify-content: space-around;
+}
+
+.callbacks__item {
+	margin-left: 10px;
+	border: 3px solid #000;
+	height: 300px;
+	width: 450px;
+	margin-bottom: 40px;
+}
+
+.user_img {
+	position: relative;
+	top: 5px;
+	left: 50px;
+	height: 60px;
+	width: 60px;
+}
+
+.callbacks__user {
+	position: relative;
+	top: 10px;
+	left: calc(30% - 10px);
+	font-size: 28px;
+	font-family: Gotham Pro-Bold;
+	color: #d1cabd;
+}
+
+.callbacks__comment {
+	position: relative;
+	top: 20px;
+	left: 10px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	font-family: Gotham Pro-Bold;
+	color: #d1cabd;
+}

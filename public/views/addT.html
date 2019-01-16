@@ -1,0 +1,9 @@
+<form class="form_add" ng-submit="be.savePost()">
+	<div class="add-block">
+		<input class="add-inp" ng-model="be.name" placeholder="Title" required="" type="text"> 
+		<!-- <input class="add-inp" ng-model="be.author" placeholder="Author" required="" type="text"> -->
+		<textarea class="add-cont" ng-model="be.price" placeholder="Content" required="" maxlength="150" type="text"> </textarea>
+		<input accept="image/*"  class="add-inp-file" ng-file-model="be.file" required="" type="file">
+		 <button class="buttons add--btn" type="submit">Save</button>
+		 </div>
+	</form>

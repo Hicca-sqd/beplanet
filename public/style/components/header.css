@@ -1,0 +1,90 @@
+.hicca-header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 5%;
+	height: 80px;
+	background-color: rgba(41, 21, 10, .7);
+	top: 0;
+}
+
+.header-logo {
+	width: 50px;
+	height: 50px;
+	filter: brightness(150%);
+	cursor: pointer;
+}
+
+.hicca-nav {
+	display: flex;
+	align-items: center;
+}
+
+.hicca-nav-list {
+	position: relative;
+	display: flex;
+	top: 5px;
+	right: 20%;
+	list-style: none;
+	list-style-type: none;
+}
+
+.hicca-nav-list__item {
+	font-size: 23px;
+	color: #ffa200;
+	list-style: none;
+	padding: 0 50px;
+	cursor: pointer;
+	transition: .3s ease-out;
+	font-family: Gotham Pro-Light;
+	text-decoration: none;
+}
+
+.item_gl:hover {
+	background-color: #ffa200;
+	font-size: 25px;
+	margin: 0 auto;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	border-color: #ffa200;
+	font-family: Gotham Pro-Bold;
+	padding: 1px 37px 1px 37px;
+	box-shadow: 1px -1px 10px 5px rgba(255, 162, 0, .5);
+	text-decoration: none;
+}
+
+.item_cl:hover {
+	background-color: #ffa200;
+	font-size: 25px;
+	margin: 0 auto;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	border-color: #ffa200;
+	font-family: Gotham Pro-Bold;
+	padding: 1px 40px 1px 40px;
+	box-shadow: 1px -1px 10px 5px rgba(255, 162, 0, .5);
+	text-decoration: none;
+}
+
+.item_pr:hover {
+	background-color: #ffa200;
+	font-size: 25px;
+	margin: 0 auto;
+	color: #000000;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	border-color: #ffa200;
+	font-family: Gotham Pro-Bold;
+	padding: 1px 38px 1px 38px;
+	box-shadow: 1px -1px 10px 5px rgba(255, 162, 0, .5);
+	text-decoration: none;
+}

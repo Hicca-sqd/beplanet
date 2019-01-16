@@ -1,0 +1,103 @@
+.prices {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 55px 5% 0;
+	height: 115vh;
+	margin-bottom: 20px;
+}
+
+.prices-block {
+	margin: 0 auto;
+	max-width: 1500px;
+	height: 80vh;
+	background-color: #e48800;
+	;
+	border-radius: 20px;
+	filter: brightness(105%);
+	-webkit-box-shadow: 0px 10px 30px 0px rgba(255, 162, 0, 0.5);
+	-moz-box-shadow: 0px 10px 30px 0px rgba(255, 162, 0, 0.5);
+	box-shadow: 0px 10px 30px 0px rgba(255, 162, 0, 0.5);
+}
+
+.prices-inner {
+	display: flex;
+	padding-top: 40px;
+	margin: 0 auto;
+	width: 1440px;
+	justify-content: space-around;
+}
+
+.prices__item {}
+
+.prices--title {
+	position: relative;
+	left: 100px;
+	bottom: 50px;
+	font-size: 30px;
+	font-family: Gotham Pro-Bold;
+	color: #d1cabd;
+}
+
+.prices--desc {
+	position: relative;
+	font-size: 30px;
+	top: 30px;
+	left: 70px;
+	font-family: Gotham Pro-Light;
+	color: #d1cabd;
+	white-space: nowrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.prices--desc__add {
+	position: relative;
+	font-size: 30px;
+	top: 30px;
+	left: 130px;
+	font-family: Gotham Pro-Light;
+	color: #d1cabd;
+	white-space: nowrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.prices-price {
+	position: relative;
+	display: block;
+	font-size: 50px;
+	margin: 50px auto;
+	font-family: Gotham Pro-Light;
+	color: #d1cabd;
+	white-space: nowrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.hexagon {
+	position: relative;
+	width: 500px;
+	height: 288.68px;
+	background-color: #29150a;
+	margin: 144.34px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+}
+
+.hexagon:before {
+	bottom: 100%;
+	border-bottom: 144.34px solid #29150a;
+}
+
+.hexagon:after {
+	top: 100%;
+	width: 0;
+	border-top: 144.34px solid #29150a;
+}

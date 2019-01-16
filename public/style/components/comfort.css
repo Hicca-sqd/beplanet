@@ -1,0 +1,88 @@
+.comfort{
+    position: relative;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    margin: 150px auto;
+}
+
+
+.comfort-inner{
+	z-index: 5;
+	position: relative;
+ 	display: flex;
+ 	top: 7em;
+ 	width: 80%;
+ 	margin: 0 auto;
+	height:100px;
+	/*padding: 0 2%;*/
+	background-color: rgba(255,255,255, .9);
+}
+
+.comfort-inner__item{
+	width: 254px;
+	height: 100%;
+	border-right: 1px solid #e0e0e0;
+}
+
+.input--comf{
+	 width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Gotham Pro;
+    font-size: 20px;
+    outline: none;
+    transition: .1s ease-in;
+}
+
+.input--comf:focus{
+	border-left: 3px solid #29b6f6;
+	border-right: 3px solid #29b6f6;
+	transition: .1s ease-in;
+}
+.points{
+	position: relative;
+	height:150px;
+	max-width: 1500px;
+ 	width: 80%;
+	margin: 10em auto;
+}
+
+.points-inner{
+    top: 5em;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 165px;
+    max-width: 1520px;
+}
+
+.points-inner__item{
+    position: relative;
+    width: 270px;
+    height: 100%;
+    transition: .5s ease-out;
+    background-color: #fff;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-left: 2px solid #29b6f6;
+}
+.points-inner__item:hover {
+	background-color: #62b0f5;
+}
+.points-inner__item:hover  .txt-title--points{
+ color: white;
+}
+.points-inner__item:hover .txt-price--points{
+ color: white;
+}
+.points-inner__item > img{
+	position: relative;
+	display: flex;
+	margin: 25px auto;
+	width: 20px;
+	height: 20px;
+}
+

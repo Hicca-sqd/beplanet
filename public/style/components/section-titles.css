@@ -1,0 +1,112 @@
+.section-title{
+		position: absolute;
+		top: 0;
+		left: calc(50% - 148px);
+		justify-content: center;
+		align-items: center;
+		height: 80px;
+}
+
+.opnening-sec{
+left: calc(50% - 208px);
+}
+
+.comf-sec{
+left: calc(50% - 200px);
+}
+
+.title{
+	position: relative;
+	font-size: 30px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+}
+
+.tl--title{
+	position: relative;
+	font-size: 35px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	display: block;
+	font-weight: 600;
+}
+
+.tl--title__blog{
+	position: relative;
+	font-size: 35px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	display: block;
+	font-weight: 600;
+	left: 70px;	
+}
+
+.tl--desc{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	right: 20px;
+	top: 10px;
+}
+
+.tl--desc__tr{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	right: 70px;
+	top: 10px;
+}
+
+.tl--desc__comfort{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	right: 6px;
+	top: 10px;
+}
+
+.tl--desc__opening{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	left: 20px;
+	top: 10px;	
+}
+
+.tl--desc__feeds{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	left: 22px;
+	top: 10px;		
+}
+
+.tl--desc__blog{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	right: 35px;
+	top: 10px;	
+}
+
+.tl--desc__about{
+	position: relative;
+	font-size: 22px;
+	font-family: Ubuntu;
+	margin: 0 auto;
+	text-align: center;
+	right: 2.5em;
+	top: 10px;	
+}

@@ -1,0 +1,70 @@
+/*body{
+	 background-color: rgba(51,21,10, 1);
+}
+*/
+.form_add{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgb(255,162, 0);
+	box-shadow: 1px -1px 10px 5px rgba(255, 162, 0, .5);
+}
+
+.add-inp{
+	position: relative;
+	display: block;
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	border-radius: 15px;
+	border: 2px solid #ffa200;
+	background-color: #55341f;
+	font-family: Gotham Pro;
+	text-align: center;
+	color: #eaeaea;
+	outline: none;
+}
+
+.hide {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.add-cont{
+	display: block;
+	width: 350px;
+	height: 100px;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	border: 2px solid #ffa200;
+	background-color: #55341f;
+	font-family: Gotham Pro;
+	text-align: center;
+	color: #eaeaea;
+	outline: none;
+	resize: none;
+}
+
+.add-inp-file{
+	position: relative;
+	display: block;
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	border-radius: 15px;
+	border: 2px solid #ffa200;
+	background-color: #55341f;
+	font-family: Gotham Pro;
+	text-align: center;
+	color: #eaeaea;
+	outline: none;
+}

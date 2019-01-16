@@ -1,0 +1,10 @@
+<form class="log-form" ng-submit="hc.login()">
+	<div class="log-block">
+		<input class="log__inp" ng-model="hc.email" placeholder="Email" required="" type="email">
+		<input class="log__inp" ng-model="hc.name" placeholder=" Name" required="" type="name"> 
+		<input class="log__inp" ng-model="hc.password" placeholder="Password" required="" type="password">
+		 <button class="buttons log-btn" type="submit">Login</button>
+		 <span class="enter__text--qw">Еще не зарегестрированы?</span> 
+         <span class="enter__text--reg" ui-sref='register'>Зарегестрироваться!</span>
+		</div>
+	</form>
